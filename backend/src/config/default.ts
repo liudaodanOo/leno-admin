@@ -10,7 +10,7 @@ export default () => {
       MYSQL_HOST: 'localhost',
       MYSQL_PORT: 3306,
       MYSQL_USER: 'root',
-      MYSQL_PWD: 'admin123',
+      MYSQL_PWD: 'rootroot',
       MYSQL_DB: 'leno_admin',
       // JWT
       JWT_SECRET: 'lenoAdmin',
@@ -18,7 +18,7 @@ export default () => {
       // redis
       REDIS_PORT: 6379,
       REDIS_HOST: 'localhost',
-      REDIS_PASSWORD: 'admin123',
+      REDIS_PASSWORD: 'rootroot',
       REDIS_DB: 0,
       // 图片路径
       IMG_URL: 'http://localhost:9090/uploads/',
