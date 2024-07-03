@@ -25,7 +25,7 @@ module.exports = merge(baseConfig, {
     // 跨域配置
     proxy: {
       '/dev-api': {
-        target: 'http://localhost:9090',
+        target: 'http://localhost:9092',
         changeOrigin: true, // 是否开启跨域
         pathRewrite: {
           '^/dev-api': '' // 将/dev-api前缀替换为空字符串
