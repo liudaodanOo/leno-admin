@@ -18,6 +18,13 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
+-- Database
+-- ----------------------------
+DROP DATABASE IF EXISTS `leno_admin`;
+CREATE DATABASE `leno_admin` CHARACTER SET = utf8 COLLATE = utf8_general_ci;
+USE `leno_admin`;
+
+-- ----------------------------
 -- Table structure for leno_user
 -- ----------------------------
 DROP TABLE IF EXISTS `leno_user`;

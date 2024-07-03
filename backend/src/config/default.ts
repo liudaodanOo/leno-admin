@@ -4,7 +4,7 @@ export default () => {
     return {
       // 服务器运行地址及端口
       APP_HOST: 'localhost',
-      APP_PORT: 9090,
+      APP_PORT: 9092,
       APP_HTTP: 'http',
       // mysql
       MYSQL_HOST: 'localhost',
